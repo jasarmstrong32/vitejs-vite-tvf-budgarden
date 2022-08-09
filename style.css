@@ -1,26 +1,26 @@
-*{
+* {
   box-sizing: border-box;
-  padding: .25%;
+  padding: 0.25%;
   margin: 0.5%;
 }
-body{
+body {
   background: rgb(201, 200, 200);
   color: purple;
 }
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   padding: 2rem;
 }
-.card:hover{
+.card:hover {
   background-color: rgb(63, 62, 62);
   color: antiquewhite;
   cursor: pointer;
   transform: scale(1.05);
   transition: all 1s ease;
 }
-.card{
+.card {
   background: white;
   width: 15rem;
   height: 20%;
@@ -30,15 +30,15 @@ body{
   flex-flow: column;
   text-align: center;
 }
-.card h2{
+.card h2 {
   padding: 1%;
   font-size: 220%;
 }
-.card p{
+.card p {
   padding: 1%;
   font-size: 100%;
 }
-.card button{
+.card button {
   background-color: olive;
   color: antiquewhite;
   padding: 4%;
@@ -47,19 +47,19 @@ body{
   display: block;
   text-align: center;
 }
-.card-image{
+.card-image {
   background-color: olive;
   height: 7rem;
   margin: 5%;
   background-size: 125%;
   border-radius: 0.5rem;
 }
-.img1{
+.img1 {
   background-image: url('https://th.bing.com/th/id/OIP.xk2xNiH9vaf6ODeFpsIeuwAAAA?pid=ImgDet&w=205&h=136&c=7');
 }
-.img2{
+.img2 {
   background-image: url('https://th.bing.com/th/id/OIP.XlUu5zOaw6E2iHrFf48sVQHaE6?pid=ImgDet&w=205&h=136&c=7');
 }
-.img3{
+.img3 {
   background-image: url('https://th.bing.com/th/id/OIP.ue2yR4-9sihanHER5arv_wHaD2?pid=ImgDet&w=205&h=106&c=7');
 }
